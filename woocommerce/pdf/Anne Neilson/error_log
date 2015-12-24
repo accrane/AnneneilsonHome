@@ -1,0 +1,2 @@
+[29-Oct-2014 16:17:09 America/Detroit] PHP Fatal error:  Call to a member function get_header_logo_id() on a non-object in /home/newshopa/public_html/bw/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/templates/pdf/Simple/invoice.php on line 6
+[29-Oct-2014 16:17:17 America/Detroit] PHP Fatal error:  Call to a member function get_header_logo_id() on a non-object in /home/newshopa/public_html/bw/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/templates/pdf/Simple/packing-slip.php on line 6
