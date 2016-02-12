@@ -30,7 +30,7 @@
         
         <div class="footer-right">
         <p>KEEP IN TOUCH</p>
-            <a class="buttn newsletter" href="#mc_form_pop">Sign up for Anne's Newsletter</a>
+            <a class="buttn newsletter" href="#mc_form_pop">Subscribe via Email</a>
             <p><?php the_field('footer_newsletter_blurb' , 'option'); ?></p>
             
             <?php //get_template_part('inc/newsletter-popup'); ?>
@@ -92,11 +92,17 @@
 	
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
     
-    <div class="thelabel label-name"><label for="mce-EMAIL">EMAIL  <span class="asterisk">*</span>
-</label>
+    <div class="thelabel label-name"><label for="mce-EMAIL">EMAIL  <span class="asterisk">*</span></label></div>
 </div>
-    
-</div>
+
+<div class="mc-list-group">
+    <ul>
+        <li><input type="checkbox" value="1" name="group[6385][1]" id="mce-group[6385]-6385-0"><label for="mce-group[6385]-6385-0">Blog</label></li>
+        <li><input type="checkbox" value="2" name="group[6385][2]" id="mce-group[6385]-6385-1"><label for="mce-group[6385]-6385-1">Products + Promotions</label></li>
+    </ul>
+    <div class="thelabel label-name"><label for="mce-group">INTERESTS</label>
+</div><!-- mc-field-group -->
+
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>

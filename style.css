@@ -243,6 +243,21 @@ font-family: FuturaPT-Light;
 	float:left;
 	margin: 0 0 20px 0;
 }
+.mc-list-group {
+	width: 100%;
+	float:left;
+	margin: 0px 0 20px 0;
+}
+.mc-list-group ul {
+	width: auto;
+	float: left;
+}
+.mc-list-group ul li {
+	color: #fff;
+	display: inline-block;
+	text-transform: uppercase;
+	margin :0 30px 0 0;
+}
 .mc-field-radio {
 	width: 100%;
 	float:left;
@@ -469,8 +484,30 @@ img.wp-post-image {
 /*	border-radius: 3px;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);*/
 }
-
-
+.subscribe-page li {
+	list-style: none;
+	text-transform: uppercase;
+}
+input.subscribe-submit {
+	color: #ffffff;
+    /* background-color: rgba(109,153,142,1); */
+    background-color: rgba(133,147,145,1);
+    transition: background-color 0.3s ease;
+    border: none;
+    text-shadow: none;
+    border-radius: 0px;
+    width: auto;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 16px;
+    float: left;
+    margin: 0 0 0 0px;
+    padding: 10px 20px;
+}
+input.subscribe-submit:hover {
+	background-color: rgba(133,147,145,.5);
+	color: #ffffff;
+}
 /* Navigation */
 .site-content nav {
 	clear: both;
@@ -2537,6 +2574,10 @@ input.search-field {
 		float: left;
 		width: 65.104166667%;
 	}
+	.subscribe-content {
+		float: left;
+		width: 45.104166667%;
+	}
 	.full-content {
 		float: left;
 		width: 100%;
@@ -2549,6 +2590,11 @@ input.search-field {
 	.widget-area {
 		float: right;
 		width: 22.041666667%;
+	}
+	.subscribe-side {
+		float: right;
+		width: 35.041666667%;
+		margin-top: 90px;
 	}
 	.widget-area-appearances {
 		float: right;
@@ -2841,10 +2887,11 @@ input#mc-embedded-subscribe {
 		border-top: none;
 		box-shadow: none;
 	}
-	.site-content {
+	.site-content, .subscribe-content {
 		margin: 0;
 		width: auto;
 	}
+	
 	.singular .entry-header .entry-meta {
 		position: static;
 	}

@@ -23,7 +23,7 @@
 <meta name="viewport" content="width=device-width" />
 <meta name="p:domain_verify" content="7e74a1ce62ed3f8a1ba877c82ee861f1"/>
 <meta name="google-site-verification" content="J9qH2tqfHzOukq6HiEHVVEg5-Rfgcw0Uzu0W4T7sb9o" />
-	<script>(function() {
+  <script>(function() {
     var _fbq = window._fbq || (window._fbq = []);
     if (!_fbq.loaded) {
     var fbds = document.createElement('script');
@@ -78,7 +78,7 @@
 
 <!--
 
-		Signup Form Devotional
+    Signup Form Devotional
 
 -->
 <div style="display:none" class="devotional-pop">
@@ -87,21 +87,21 @@
 <form action="//anneneilsonfineart.us3.list-manage.com/subscribe/post?u=33908336d7b67e6ca5c33dfc7&amp;id=ef245c348a" method="post" id="mc-embedded-subscribe-form-devotional" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
     <div class="newscenter">
-		<p>ENTER THE INFORMATION BELOW TO CONTINUE TO THE DOWNLOAD</p>
+    <p>ENTER THE INFORMATION BELOW TO CONTINUE TO THE DOWNLOAD</p>
     </div>
 <div class="mc-field-group">
-	<div class="thelabel label-name"><label for="mce-LNAME">NAME <span class="asterisk">*</span></label></div>
-	<input type="text" value="" name="LNAME" class="" id="mce-NAME">
+  <div class="thelabel label-name"><label for="mce-LNAME">NAME <span class="asterisk">*</span></label></div>
+  <input type="text" value="" name="LNAME" class="" id="mce-NAME">
 </div>
 <div class="mc-field-group">
-	<div class="thelabel label-name"><label for="mce-EMAIL">EMAIL  <span class="asterisk">*</span>
+  <div class="thelabel label-name"><label for="mce-EMAIL">EMAIL  <span class="asterisk">*</span>
 </label></div>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+  <div id="mce-responses" class="clear">
+    <div class="response" id="mce-error-response" style="display:none"></div>
+    <div class="response" id="mce-success-response" style="display:none"></div>
+  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_33908336d7b67e6ca5c33dfc7_ef245c348a" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe-devotional" class="button"></div>
     </div>
@@ -113,11 +113,11 @@
 <!--End mc_embed_signup-->
 
 
-	<header id="masthead" class="site-header" role="banner">
+  <header id="masthead" class="site-header" role="banner">
     
-    <div class="devotional"><a class="buttn devotional-pop" href="#dev_embed_signup">signup</a></div>
+    <!-- <div class="devotional"><a class="buttn devotional-pop" href="#dev_embed_signup">signup</a></div> -->
     
-		<?php if(is_home()) { ?>
+    <?php if(is_home()) { ?>
             <h1 class="logo"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
         <?php } else { ?>
             <div class="logo"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></div>
@@ -136,11 +136,11 @@
         </div><!-- head right -->
         
         
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<h3 class="menu-toggle"><?php _e( 'Navigation', 'twentytwelve' ); ?></h3>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+      <h3 class="menu-toggle"><?php _e( 'Navigation', 'twentytwelve' ); ?></h3>
+      <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+    </nav><!-- #site-navigation -->
         
     </header><!-- #masthead -->
 
-	<div id="main" class="wrapper">
+  <div id="main" class="wrapper">
