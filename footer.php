@@ -30,7 +30,7 @@
         
         <div class="footer-right">
         <p>KEEP IN TOUCH</p>
-            <a class="buttn newsletter" href="#mc_form_pop">Subscribe via Email</a>
+            <a class="buttn" href="<?php bloginfo('url'); ?>/subscribe">Subscribe via Email</a>
             <p><?php the_field('footer_newsletter_blurb' , 'option'); ?></p>
             
             <?php //get_template_part('inc/newsletter-popup'); ?>
@@ -100,7 +100,7 @@
         <li><input type="checkbox" value="1" name="group[6385][1]" id="mce-group[6385]-6385-0"><label for="mce-group[6385]-6385-0">Blog</label></li>
         <li><input type="checkbox" value="2" name="group[6385][2]" id="mce-group[6385]-6385-1"><label for="mce-group[6385]-6385-1">Products + Promotions</label></li>
     </ul>
-    <div class="thelabel label-name"><label for="mce-group">INTERESTS</label>
+    <!-- <div class="thelabel-left label-name"><label for="mce-group">INTERESTS</label> -->
 </div><!-- mc-field-group -->
 
 	<div id="mce-responses" class="clear">
@@ -113,13 +113,14 @@
     </div>
 </form>
 </div>
+<!--
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[2]='MMERGE2';ftypes[2]='radio';fnames[3]='MMERGE3';ftypes[3]='birthday';fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);
 
 
 
 
-</script>
+</script> -->
 
  
 	</div>

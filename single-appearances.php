@@ -20,6 +20,19 @@
 		$city = get_field('city'); 
 		$state = get_field('state'); 
 
+		$image = get_field('image'); 
+		$url = $image['url'];
+		$title = $image['title'];
+		$alt = $image['alt'];
+		$caption = $image['caption'];
+	 
+		// thumbnail or custom size that will go
+		// into the "thumb" variable.
+		$size = 'large';
+		$thumb = $image['sizes'][ $size ];
+
+
+
  	?>
                 
             <div class="entry-content">
@@ -57,6 +70,11 @@
                 
 
  <div class="googlemap">
+
+<?php if( $image != '' ) { ?>
+	<img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" title="<?php echo $title; ?>" />
+<?php } ?>
+
    <?php 
 	$location = get_field('google_map');
 		if( !empty($location) ): ?>
